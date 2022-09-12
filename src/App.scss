@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Fredoka';
+  src: url(../src/fonts/FredokaOne-Regular.ttf);
+}
+
+body{
+  background: linear-gradient(180deg, #1F1F1F 0%, #111111 100%) no-repeat;
+  color: #fff;
+  height: 100vh;
+  font-family: 'Fredoka';
+}
+
+.container{
+ padding: 1em;
+  margin: auto;
+  @media(min-width:1200px){
+    width: 90%;
+  }
+}
+
