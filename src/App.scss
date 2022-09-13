@@ -1,13 +1,10 @@
-@font-face {
-  font-family: 'Poppins';
-  src: url(../src/fonts/Poppins-Light.ttf);
-}
+@import url(./scss/_config.scss);
 
 body{
   background: linear-gradient(180deg, #1F1F1F 0%, #111111 100%) no-repeat;
   color: #fff;
-  height: 100vh;
   font-family: 'Poppins';
+  overflow-x: hidden;
 }
 
 .container{
