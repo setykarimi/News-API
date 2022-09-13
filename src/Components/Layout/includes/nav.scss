@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Fredoka';
+  src: url(../../../fonts/FredokaOne-Regular.ttf);
+}
+
 .custom-nav{
     background: #2E2E2E;
     padding: .5em 1.5em;
@@ -11,6 +16,7 @@
      display: flex;
      gap: .5em;
      align-items: center;
+     font-family: 'Fredoka';
       .logo{
         font-size: 1.5em;
         display: block;
@@ -25,6 +31,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+       
         &-dec{
           font-size: 1.2em;
         }
@@ -41,6 +48,28 @@
           color: #fff;
           text-decoration: none;
         }
+      }
+    }
+
+    &__search-bar{
+      margin-left: auto;
+      border-bottom: 1px solid #707070;
+      padding-bottom: .2em;
+      transition: .3s ease;
+      &:focus-within{
+        border-bottom: 1px solid #fff;
+      }
+      input{
+        background: transparent;
+        border: none;
+        width: 8em;
+        outline: none;
+        margin-left: .5em;
+        color: #fff;
+      }
+
+      .icon{
+        width: 1em;
       }
     }
   }
