@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import './nav.scss'
+import {BsSearch} from 'react-icons/bs'
 
 const Navigation = () => {
     return ( 
@@ -27,6 +28,12 @@ const Navigation = () => {
                         <Link to='/'>Entertainment</Link>
                     </li>
                 </ul>
+            </div>
+
+            <div className="custom-nav__search-bar">
+            <BsSearch className="icon"/> 
+            <input placeholder="Search ..."/>
+               
             </div>
         </nav>
      );
