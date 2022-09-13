@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Fredoka';
-  src: url(../src/fonts/FredokaOne-Regular.ttf);
+  font-family: 'Poppins';
+  src: url(../src/fonts/Poppins-Light.ttf);
 }
 
 body{
   background: linear-gradient(180deg, #1F1F1F 0%, #111111 100%) no-repeat;
   color: #fff;
   height: 100vh;
-  font-family: 'Fredoka';
+  font-family: 'Poppins';
 }
 
 .container{
