@@ -2,46 +2,48 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import News from './News';
 import './news.scss'
+import { VscLoading } from 'react-icons/vsc'
 
 const NewsList = () => {
     const [news, setNews] = useState(null)
 
     useEffect(() => {
-        axios.get("https://newsapi.org/v2/everything?q=tesla&from=2022-08-13&sortBy=publishedAt&apiKey=7670e7d98e774bffb612208090a1b4dd")
+        axios.get("http://localhost:3001/articles")
             .then((res) => {
-                console.log(res.data.articles)
-                setNews(res.data.articles.slice(1, 15))
+                console.log(res.data)
+                setNews(res.data)
             })
             .catch((err) => console.log(err))
     }, [])
 
-    const renderComments = () => {
+    const renderNews = () => {
 
-        let resultComments = <p>loading ...</p>
+        let resultNews = <div className='loading-container'><VscLoading /> <p>Loading News ...</p></div>
         if (news) {
-           
-            { resultComments = news.map((n, index) => (
-                <News
-                    key={index}
-                    img={n.urlToImage}
-                    title={n.title}
-                    author={n.author}
-                    content={n.content}
-                    publishedDate={n.publishedAt}
-                    id={index}
-                />
-            ))}
-           
+            {
+                resultNews = news.map((n) => (
+                    <News
+                        key={n.id}
+                        img={n.urlToImage}
+                        title={n.title}
+                        author={n.author}
+                        content={n.content}
+                        publishedDate={n.publishedAt}
+                        id={n.id}
+                    />
+                ))
+            }
         }
 
-        return resultComments
+        return resultNews
 
     }
 
     return (
-        <div className="news-row">
-            {renderComments()}
+        <div className='news-row'>
+            {renderNews()}
         </div>
+
     );
 }
 
