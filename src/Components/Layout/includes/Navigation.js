@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import './nav.scss'
-import {BsSearch} from 'react-icons/bs'
+import './nav.scss';
+import { BsSearch } from 'react-icons/bs';
+import { HiMenuAlt3 } from 'react-icons/hi'
 
 const Navigation = () => {
-    return ( 
+    return (
         <nav className="custom-nav">
             <div className="custom-nav__logo">
                 <span className="logo">N</span>
@@ -31,12 +32,14 @@ const Navigation = () => {
             </div>
 
             <div className="custom-nav__search-bar">
-            <BsSearch className="icon"/> 
-            <input placeholder="Search ..."/>
-               
+                <BsSearch className="icon" />
+                <input placeholder="Search ..." />
             </div>
+            <button class="toggle-menu">
+            <HiMenuAlt3 />
+            </button>
         </nav>
-     );
+    );
 }
- 
+
 export default Navigation;
