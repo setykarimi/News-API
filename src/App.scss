@@ -1,17 +1,30 @@
 @import url(./scss/_config.scss);
 
-body{
+body, html{
   background: linear-gradient(180deg, #1F1F1F 0%, #111111 100%) no-repeat;
   color: #fff;
   font-family: 'Poppins';
   overflow-x: hidden;
+  height: -webkit-fill-available;
 }
 
 .container{
  padding: 1em;
   margin: auto;
   @media(min-width:1200px){
-    width: 90%;
+    width: 1200px;
   }
 }
 
+.loading-container{
+  height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  p{
+    margin-left: .5em;
+  }
+}
