@@ -40,6 +40,23 @@
       }
     }
   
+    &__items{
+      @media(max-width:992px){
+        display: none;
+      }
+    }
+
+    .toggle-menu{
+      display: none;
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      @media(max-width:992px){
+        display: block;
+        margin-left: .5em;
+      }
+    }
     ul{
       margin-left: 3em;
       list-style-type: none;
