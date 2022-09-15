@@ -1,4 +1,4 @@
-import NewsList from "../Components/News/NewsList";
+import NewsList from "../Components/News/List/NewsList";
 
 const HomePage = () => {
     return ( <div>

@@ -35,7 +35,7 @@ const Navigation = () => {
                 <BsSearch className="icon" />
                 <input placeholder="Search ..." />
             </div>
-            <button class="toggle-menu">
+            <button className="toggle-menu">
             <HiMenuAlt3 />
             </button>
         </nav>
