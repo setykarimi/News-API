@@ -36,6 +36,7 @@
         margin: auto;
         font-size: 1em;
         margin-top: .5em;
+        text-align: center;
     }
 
     &__desc {
@@ -150,6 +151,90 @@
 
         &-content{
             margin-top: 2em;
+        }
+    }
+}
+
+.add-news{
+    &__box{
+        background: #2e2e2e;
+        border-radius: .5em;
+        padding: 1em;
+        &-title{
+            text-align: center;
+            h1{
+                font-size: 1.5em;
+                font-family: 'Fredoka';
+                font-weight: normal;
+            }
+        }
+
+        .form-row{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 1.5em;
+            @media(max-width:992px){
+                grid-template-columns: 1fr 1fr ;
+            }
+            @media(max-width:576px){
+                grid-template-columns: 1fr  ;
+            }
+        }
+
+        .form-row-desc{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5em;
+            @media(max-width:992px){
+                grid-template-columns: 1fr  ;
+            }
+        }
+
+        .form-group{
+            display: flex;
+            justify-content: space-between;
+            gap: .5em;
+            align-items: center;
+            margin: .5em 0;
+            input, textarea{
+                width: 100%;
+                border: none;
+                background: #1F1F1F;
+                border-radius: .3em;
+                padding: .7em ;
+                outline: none;
+                transition: .3s ease;
+                color: #fff;
+                &:focus{
+                    outline: 3px solid #0075FF;
+                }
+            }
+
+            input{
+                width: 15em;
+            }
+            textarea{
+                width: 90%;
+            }
+        }
+
+        &-submit{
+            display: flex;
+            justify-content: center;
+            margin: 1em auto;
+            button{
+                background: #0075FF;
+                color: #fff;
+                font-family: 'Poppins-Black';
+                border: none;
+                outline: none;
+                padding: .5em 1em;
+                border-radius: .3em;
+                transition: .3s ease;
+                &:hover , &:focus{
+                    outline: 3px solid #0077ff28;
+                }
+            }
         }
     }
 }
