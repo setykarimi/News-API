@@ -1,168 +1,228 @@
 {
-    "articles": [
-        {
-            "id": 1,
-            "name": "Biztoc.com",
-            "author": "powell",
-            "title": "Stock Market's $1.6 Trillion One-Day Implosion Reveals A Problem",
-            "description": "The S&P 500's Tuesday drop of 4.3% erased more than 177 points from the world's most popular index. Losses from Apple (AAPL), Microsoft (MSFT) and Amazon.com (AMZN) easily racked up the lion's... #amazoncom #aapl #amzn #tsla #stockmarket #tesla #implosion #ms…",
-            "url": "https://biztoc.com/p/prddt8ec?ref=rss",
-            "urlToImage": "https://cdn.biztoc.com/og/prddt8ec.jpg",
-            "publishedAt": "2022-09-14T14:48:34Z",
-            "content": "The S&amp;P 500's Tuesday drop of 4.3% erased more than 177 points from the world's most popular index. Losses from Apple (AAPL), Microsoft (MSFT) and Amazon.com (AMZN) easily racked up the lion's sh… [+1052 chars]"
-        },
-        {
-            "id": 2,
-            "name": "Business Insider",
-            "author": "mfox@businessinsider.com (Matthew Fox)",
-            "title": "Retail investors keep buying the dip in stocks, but a retest of the June market low would spark selling, according to VandaTrack",
-            "description": "\"We continue to see a weakening trend in retail demand, and at the same time, multiple capitulation indicators are now flashing a warning sign.\"",
-            "url": "https://markets.businessinsider.com/news/stocks/stock-market-outlook-retail-keeps-buying-inflation-retest-june-lows-2022-9",
-            "urlToImage": "https://i.insider.com/6321e753d5916b0019abae4a?width=1200&format=jpeg",
-            "publishedAt": "2022-09-14T14:43:19Z",
-            "content": "Retail investors continue to see opportunity in a falling stock market and are buying the decline, according to a Wednesday note from Vanda Research.\r\nThe research firm said retail investors plowed $… [+2460 chars]"
-        },
-        {
-            "id": 3,
-            "name": "PRNewswire",
-            "title": "Empower Energies and Redflow Announce Strategic Partnership to Deploy Solar + Flow Battery Solutions in North America",
-            "description": "BETHESDA, Md., Sept. 14, 2022 /PRNewswire/ -- Empower Energies and Australian company Redflow have signed a Letter of Intent to develop integrated solar and flow battery solutions for the North American commercial and industrial (C&I), remote community micro …",
-            "url": "https://www.prnewswire.com/news-releases/empower-energies-and-redflow-announce-strategic-partnership-to-deploy-solar--flow-battery-solutions-in-north-america-301624436.html",
-            "urlToImage": "https://mma.prnewswire.com/media/449563/Empower_Energies_new_LOGO.jpg?p=facebook",
-            "publishedAt": "2022-09-14T14:38:00Z",
-            "content": "BETHESDA, Md., Sept. 14, 2022 /PRNewswire/ -- Empower Energies and Australian company Redflow have signed a Letter of Intent to develop integrated solar and flow battery solutions for the North Ameri… [+3510 chars]"
-        },
-        {
-            "id": 4,
-            "name": "Business Standard",
-            "author": "Reuters",
-            "title": "Wall Street edges higher after rout on rate hike worries; Tesla up 1.5%",
-            "description": "Traders price in 37% chance of 100 bps rate hike next week; Starbucks projects strong profit growth over next three years",
-            "url": "https://www.business-standard.com/article/international/wall-street-edges-higher-after-rout-on-rate-hike-worries-tesla-up-1-5-122091401125_1.html",
-            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/hp/home-page/2022-02/24/full/1645716252-0169.jpg",
-            "publishedAt": "2022-09-14T14:37:00Z",
-            "content": "U.S. stock indexes edged higher on Wednesday following a sharp selloff in the previous session after red-hot inflation data fanned worries about steep interest rate hikes by the Federal Reserve.\r\nThe… [+3443 chars]"
-        },
-        {
-            "id": 5,
-            "name": "Seeking Alpha",
-            "author": "Kevin P. Curran",
-            "title": "Tesla’s Gigafactory expansion in Germany delayed indefinitely",
-            "description": "A vote on the expansion of Tesla’s Gigafactory in Germany has been delayed, according to German news portal RBB24.",
-            "url": "https://seekingalpha.com/news/3882737-teslas-gigafactory-expansion-in-germany-delayed-indefinitely",
-            "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1271004228/image_1271004228.jpg?io=getty-c-w750",
-            "publishedAt": "2022-09-14T14:34:43Z",
-            "content": "J-Picture/iStock Editorial via Getty Images\r\nA vote on the expansion of Teslas Gigafactory in Germany has been delayed, according to German news portal RBB24. \r\nThe outlet cited the mayor of Grünheid… [+490 chars]"
-        },
-        {
-            "id": 6,
-            "name": "Entrepreneur",
-            "author": "Morissa Schwartz",
-            "title": "You are Missing Out if You Don't Use Twitter. Here's 3 Reasons Why.",
-            "description": "Twitter is a great social media tool for businesses. Here is why you should be using it.",
-            "url": "https://www.entrepreneur.com/science-technology/3-ways-twitter-can-transform-your-business-and-personal/434497",
-            "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/1662992983-GettyImages-1196888486.jpg",
-            "publishedAt": "2022-09-14T14:30:00Z",
-            "content": "I gained over a hundred thousand followers on Twitter this year. While I grew on other social media platforms, there are several reasons none grew as fast as Twitter.\r\nBut before we discuss the reaso… [+4739 chars]"
-        },
-        {
-            "id": 7,
-            "name": "WGN TV Chicago",
-            "author": "Dray Clark, Taylor Delandro, Nexstar Media Wire",
-            "title": "Major companies dropping college requirements for new hires",
-            "description": "Major companies are dropping the requirement for college degrees as college enrollment continues to drop.",
-            "url": "https://wgntv.com/news/nexstar-media-wire/major-companies-dropping-college-requirements-for-new-hires/",
-            "urlToImage": "https://wgntv.com/wp-content/uploads/sites/5/2022/09/GettyImages-1127339203-1-1.jpg?w=1280",
-            "publishedAt": "2022-09-14T14:22:05Z",
-            "content": "NEW YORK (NewsNation) Skyrocketing tuition and crippling student loan debt have millions of parents and students wondering whether college is even worth it anymore as companies reconsider hiring requ… [+3799 chars]"
-        },
-        {
-            "id": 8,
-            "name": "Biztoc.com",
-            "author": "dickenskale",
-            "title": "Volvo starts series production of heavy-duty electric trucks, targets 50% of sales by 2030",
-            "description": "Volvo Trucks says it now has \"six electric truck models in series production globally\" Volvo FM, Volvo FMX and Volvo FH vehicles could run at a weight totaling 44 metric tons. The range for the... #ghent #jointventure #volvotrucks #volvofh #customerpilots #da…",
-            "url": "https://biztoc.com/p/bcf29jb5?ref=rss",
-            "urlToImage": "https://cdn.biztoc.com/og/bcf29jb5.jpg",
-            "publishedAt": "2022-09-14T14:18:38Z",
-            "content": "Volvo Trucks says it now has \"six electric truck models in series production globally\" Volvo FM, Volvo FMX and Volvo FH vehicles could run at a weight totaling 44 metric tons. The range for the elect… [+1245 chars]"
-        },
-        {
-            "id": 9,
-            "name": "Motley Fool",
-            "author": "newsfeedback@fool.com (Chris Hill, Tom Gardner, and Aswath Damodaran)",
-            "title": "Aswath Damodaran on Valuation, Inflation, Bezos, Musk, and More",
-            "description": "\"The person you need to understand the most to be a great investor is not Warren Buffett or Peter Lynch. It's you.\"",
-            "url": "https://www.fool.com/investing/2022/09/14/aswath-damodaran-on-valuation-inflation-bezos-musk/",
-            "urlToImage": "https://g.foolcdn.com/editorial/images/700385/mfm_2022911.jpg",
-            "publishedAt": "2022-09-14T14:18:21Z",
-            "content": "Motley Fool CEO Tom Gardner caught up with Aswath Damodaran, the \"Dean of Valuation,\" for a discussion on topics including:\r\n<ul><li>Inflation.</li><li>Tesla valuations (from $50 billion to $1 trilli… [+34698 chars]"
-        },
-        {
-            "id": 10,
-            "name": "Seeking Alpha",
-            "author": "Fred Piard",
-            "title": "FDIS: Consumer Discretionary Dashboard For September",
-            "description": "The durables and apparel subsector is undervalued relative to 11-year averages. Auto and components are the most overvalued. Fast facts on FDIS, an alternative to XLY.",
-            "url": "https://seekingalpha.com/article/4540927-fdis-consumer-discretionary-dashboard-for-september",
-            "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1252468735/image_1252468735.jpg?io=getty-c-w750",
-            "publishedAt": "2022-09-14T14:17:52Z",
-            "content": "4kodiak/iStock Unreleased via Getty Images\r\nThis monthly article series shows a dashboard with aggregate subsector metrics in Consumer Discretionary. It is also a top-down analysis of sector ETFs lik… [+10488 chars]"
-        },
-        {
-            "id": 11,
-            "name": "Yahoo Entertainment",
-            "author": "Katherine Burton, Hema Parmar and Yiqin Shen",
-            "title": "Hedge Funds Betting Musk Will Be Forced to Buy TWITTER...",
-            "description": "(Bloomberg) -- Hedge funds including David Einhorn’s Greenlight Capital and Pentwater Capital Management are wagering that Elon Musk won’t get his way this...",
-            "url": "https://finance.yahoo.com/news/hedge-funds-betting-elon-musk-125854748.html",
-            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/CFJsosROvz9uV44REAy5Ww--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_markets_842/18ac2bc032f915292cff270594980008",
-            "publishedAt": "2022-09-14T14:16:39Z",
-            "content": "(Bloomberg) -- Hedge funds including David Einhorns Greenlight Capital and Pentwater Capital Management are wagering that Elon Musk wont get his way this time.\r\nMost Read from Bloomberg\r\nMusk, the wo… [+4818 chars]"
-        },
-        {
-            "id": 12,
-            "name": "Motley Fool",
-            "author": "newsfeedback@fool.com (Reuben Gregg Brewer)",
-            "title": "These 3 Stocks Might Be Getting a Little Too Expensive",
-            "description": "When looking to buy stocks for the long term, you need to consider valuation. Right now, these stocks are not cheap.",
-            "url": "https://www.fool.com/investing/2022/09/14/these-stocks-might-be-getting-too-expensive/",
-            "urlToImage": "https://g.foolcdn.com/editorial/images/700619/22_08_08-a-balance-showing-risk-and-reward-_mf-dload.jpg",
-            "publishedAt": "2022-09-14T14:15:27Z",
-            "content": "Even great companies can be bad investments if you pay too much for them. That's a warning from investment legend Benjamin Graham, the man who helped train Warren Buffett.\r\nIf you are looking for som… [+4251 chars]"
-        },
-        {
-            "id": 13,
-            "name": "Barron's",
-            "author": "Al Root",
-            "title": "Detroit Auto Show Is a Big Deal, but Not for Tesla",
-            "description": "The Detroit Auto Show is back—in person—after major changes to the car business and the world. President Joe Biden will attend, but not Elon Musk.",
-            "url": "https://www.barrons.com/articles/tesla-biden-detroit-auto-show-51663163721",
-            "urlToImage": "https://images.barrons.com/im-622789/social",
-            "publishedAt": "2022-09-14T14:10:47Z",
-            "content": "The Detroit Auto Show is backin person but smallerafter a three-plus year pause that ushered in an unfathomable number of changes to the car business and the world.All the changes might make the show… [+3525 chars]"
-        },
-        {
-            "id": 14,
-            "name": "Business Wire",
-            "author": null,
-            "title": "Akuity Launches Platform to Help DevOps Overcome Common Kubernetes Pain Points",
-            "description": "SUNNYVALE, Calif.--(BUSINESS WIRE)--The new Akuity Platform is a fully-managed SaaS service for implementing GitOps and faster Kubernetes application delivery, using the Argo project.",
-            "url": "https://www.businesswire.com/news/home/20220914005050/en/Akuity-Launches-Platform-to-Help-DevOps-Overcome-Common-Kubernetes-Pain-Points",
-            "urlToImage": "https://mms.businesswire.com/media/20220914005050/en/1570565/23/IMG_1975.jpg",
-            "publishedAt": "2022-09-14T14:08:58Z",
-            "content": "SUNNYVALE, Calif.--(BUSINESS WIRE)--Akuity.io, the enterprise company for Argo, today announced the general availability of the Akuity Platform, a fully-managed SaaS service for simpler, safer and fa… [+3001 chars]"
-        },
-        {
-            "id": 15,
-            "name": "Motley Fool",
-            "author": "newsfeedback@fool.com (Michael Byrne)",
-            "title": "2 Robinhood Stocks With Market-Beating Potential",
-            "description": "Sometimes great investment opportunities are sitting right in front of us.",
-            "url": "https://www.fool.com/investing/2022/09/14/2-robinhood-stocks-with-market-beating-potential/",
-            "urlToImage": "https://g.foolcdn.com/editorial/images/700230/coffee-shop-service-restaurant-take-out.jpg",
-            "publishedAt": "2022-09-14T14:07:00Z",
-            "content": "Robinhood investors got a somewhat undeserved bad rap during 2021's meme stock mania.\r\nSure, some investors on the platform did nothing more than blindly chase the next big meme, but in looking at th… [+5916 chars]"
-        }
-    ]
+  "articles": [
+    {
+      "id": 1,
+      "name": "Biztoc.com",
+      "author": "powell",
+      "title": "Stock Market's $1.6 Trillion One-Day Implosion Reveals A Problem",
+      "description": "The S&P 500's Tuesday drop of 4.3% erased more than 177 points from the world's most popular index. Losses from Apple (AAPL), Microsoft (MSFT) and Amazon.com (AMZN) easily racked up the lion's... #amazoncom #aapl #amzn #tsla #stockmarket #tesla #implosion #ms…",
+      "url": "https://biztoc.com/p/prddt8ec?ref=rss",
+      "urlToImage": "https://cdn.biztoc.com/og/prddt8ec.jpg",
+      "publishedAt": "2022-09-14T14:48:34Z",
+      "content": "The S&amp;P 500's Tuesday drop of 4.3% erased more than 177 points from the world's most popular index. Losses from Apple (AAPL), Microsoft (MSFT) and Amazon.com (AMZN) easily racked up the lion's sh… [+1052 chars]"
+    },
+    {
+      "id": 2,
+      "name": "Business Insider",
+      "author": "mfox@businessinsider.com (Matthew Fox)",
+      "title": "Retail investors keep buying the dip in stocks, but a retest of the June market low would spark selling, according to VandaTrack",
+      "description": "\"We continue to see a weakening trend in retail demand, and at the same time, multiple capitulation indicators are now flashing a warning sign.\"",
+      "url": "https://markets.businessinsider.com/news/stocks/stock-market-outlook-retail-keeps-buying-inflation-retest-june-lows-2022-9",
+      "urlToImage": "https://i.insider.com/6321e753d5916b0019abae4a?width=1200&format=jpeg",
+      "publishedAt": "2022-09-14T14:43:19Z",
+      "content": "Retail investors continue to see opportunity in a falling stock market and are buying the decline, according to a Wednesday note from Vanda Research.\r\nThe research firm said retail investors plowed $… [+2460 chars]"
+    },
+    {
+      "id": 3,
+      "name": "PRNewswire",
+      "title": "Empower Energies and Redflow Announce Strategic Partnership to Deploy Solar + Flow Battery Solutions in North America",
+      "description": "BETHESDA, Md., Sept. 14, 2022 /PRNewswire/ -- Empower Energies and Australian company Redflow have signed a Letter of Intent to develop integrated solar and flow battery solutions for the North American commercial and industrial (C&I), remote community micro …",
+      "url": "https://www.prnewswire.com/news-releases/empower-energies-and-redflow-announce-strategic-partnership-to-deploy-solar--flow-battery-solutions-in-north-america-301624436.html",
+      "urlToImage": "https://mma.prnewswire.com/media/449563/Empower_Energies_new_LOGO.jpg?p=facebook",
+      "publishedAt": "2022-09-14T14:38:00Z",
+      "content": "BETHESDA, Md., Sept. 14, 2022 /PRNewswire/ -- Empower Energies and Australian company Redflow have signed a Letter of Intent to develop integrated solar and flow battery solutions for the North Ameri… [+3510 chars]"
+    },
+    {
+      "id": 4,
+      "name": "Business Standard",
+      "author": "Reuters",
+      "title": "Wall Street edges higher after rout on rate hike worries; Tesla up 1.5%",
+      "description": "Traders price in 37% chance of 100 bps rate hike next week; Starbucks projects strong profit growth over next three years",
+      "url": "https://www.business-standard.com/article/international/wall-street-edges-higher-after-rout-on-rate-hike-worries-tesla-up-1-5-122091401125_1.html",
+      "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/hp/home-page/2022-02/24/full/1645716252-0169.jpg",
+      "publishedAt": "2022-09-14T14:37:00Z",
+      "content": "U.S. stock indexes edged higher on Wednesday following a sharp selloff in the previous session after red-hot inflation data fanned worries about steep interest rate hikes by the Federal Reserve.\r\nThe… [+3443 chars]"
+    },
+    {
+      "id": 5,
+      "name": "Seeking Alpha",
+      "author": "Kevin P. Curran",
+      "title": "Tesla’s Gigafactory expansion in Germany delayed indefinitely",
+      "description": "A vote on the expansion of Tesla’s Gigafactory in Germany has been delayed, according to German news portal RBB24.",
+      "url": "https://seekingalpha.com/news/3882737-teslas-gigafactory-expansion-in-germany-delayed-indefinitely",
+      "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1271004228/image_1271004228.jpg?io=getty-c-w750",
+      "publishedAt": "2022-09-14T14:34:43Z",
+      "content": "J-Picture/iStock Editorial via Getty Images\r\nA vote on the expansion of Teslas Gigafactory in Germany has been delayed, according to German news portal RBB24. \r\nThe outlet cited the mayor of Grünheid… [+490 chars]"
+    },
+    {
+      "id": 6,
+      "name": "Entrepreneur",
+      "author": "Morissa Schwartz",
+      "title": "You are Missing Out if You Don't Use Twitter. Here's 3 Reasons Why.",
+      "description": "Twitter is a great social media tool for businesses. Here is why you should be using it.",
+      "url": "https://www.entrepreneur.com/science-technology/3-ways-twitter-can-transform-your-business-and-personal/434497",
+      "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/1662992983-GettyImages-1196888486.jpg",
+      "publishedAt": "2022-09-14T14:30:00Z",
+      "content": "I gained over a hundred thousand followers on Twitter this year. While I grew on other social media platforms, there are several reasons none grew as fast as Twitter.\r\nBut before we discuss the reaso… [+4739 chars]"
+    },
+    {
+      "id": 7,
+      "name": "WGN TV Chicago",
+      "author": "Dray Clark, Taylor Delandro, Nexstar Media Wire",
+      "title": "Major companies dropping college requirements for new hires",
+      "description": "Major companies are dropping the requirement for college degrees as college enrollment continues to drop.",
+      "url": "https://wgntv.com/news/nexstar-media-wire/major-companies-dropping-college-requirements-for-new-hires/",
+      "urlToImage": "https://wgntv.com/wp-content/uploads/sites/5/2022/09/GettyImages-1127339203-1-1.jpg?w=1280",
+      "publishedAt": "2022-09-14T14:22:05Z",
+      "content": "NEW YORK (NewsNation) Skyrocketing tuition and crippling student loan debt have millions of parents and students wondering whether college is even worth it anymore as companies reconsider hiring requ… [+3799 chars]"
+    },
+    {
+      "id": 8,
+      "name": "Biztoc.com",
+      "author": "dickenskale",
+      "title": "Volvo starts series production of heavy-duty electric trucks, targets 50% of sales by 2030",
+      "description": "Volvo Trucks says it now has \"six electric truck models in series production globally\" Volvo FM, Volvo FMX and Volvo FH vehicles could run at a weight totaling 44 metric tons. The range for the... #ghent #jointventure #volvotrucks #volvofh #customerpilots #da…",
+      "url": "https://biztoc.com/p/bcf29jb5?ref=rss",
+      "urlToImage": "https://cdn.biztoc.com/og/bcf29jb5.jpg",
+      "publishedAt": "2022-09-14T14:18:38Z",
+      "content": "Volvo Trucks says it now has \"six electric truck models in series production globally\" Volvo FM, Volvo FMX and Volvo FH vehicles could run at a weight totaling 44 metric tons. The range for the elect… [+1245 chars]"
+    },
+    {
+      "id": 9,
+      "name": "Motley Fool",
+      "author": "newsfeedback@fool.com (Chris Hill, Tom Gardner, and Aswath Damodaran)",
+      "title": "Aswath Damodaran on Valuation, Inflation, Bezos, Musk, and More",
+      "description": "\"The person you need to understand the most to be a great investor is not Warren Buffett or Peter Lynch. It's you.\"",
+      "url": "https://www.fool.com/investing/2022/09/14/aswath-damodaran-on-valuation-inflation-bezos-musk/",
+      "urlToImage": "https://g.foolcdn.com/editorial/images/700385/mfm_2022911.jpg",
+      "publishedAt": "2022-09-14T14:18:21Z",
+      "content": "Motley Fool CEO Tom Gardner caught up with Aswath Damodaran, the \"Dean of Valuation,\" for a discussion on topics including:\r\n<ul><li>Inflation.</li><li>Tesla valuations (from $50 billion to $1 trilli… [+34698 chars]"
+    },
+    {
+      "id": 10,
+      "name": "Seeking Alpha",
+      "author": "Fred Piard",
+      "title": "FDIS: Consumer Discretionary Dashboard For September",
+      "description": "The durables and apparel subsector is undervalued relative to 11-year averages. Auto and components are the most overvalued. Fast facts on FDIS, an alternative to XLY.",
+      "url": "https://seekingalpha.com/article/4540927-fdis-consumer-discretionary-dashboard-for-september",
+      "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1252468735/image_1252468735.jpg?io=getty-c-w750",
+      "publishedAt": "2022-09-14T14:17:52Z",
+      "content": "4kodiak/iStock Unreleased via Getty Images\r\nThis monthly article series shows a dashboard with aggregate subsector metrics in Consumer Discretionary. It is also a top-down analysis of sector ETFs lik… [+10488 chars]"
+    },
+    {
+      "id": 11,
+      "name": "Yahoo Entertainment",
+      "author": "Katherine Burton, Hema Parmar and Yiqin Shen",
+      "title": "Hedge Funds Betting Musk Will Be Forced to Buy TWITTER...",
+      "description": "(Bloomberg) -- Hedge funds including David Einhorn’s Greenlight Capital and Pentwater Capital Management are wagering that Elon Musk won’t get his way this...",
+      "url": "https://finance.yahoo.com/news/hedge-funds-betting-elon-musk-125854748.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/CFJsosROvz9uV44REAy5Ww--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_markets_842/18ac2bc032f915292cff270594980008",
+      "publishedAt": "2022-09-14T14:16:39Z",
+      "content": "(Bloomberg) -- Hedge funds including David Einhorns Greenlight Capital and Pentwater Capital Management are wagering that Elon Musk wont get his way this time.\r\nMost Read from Bloomberg\r\nMusk, the wo… [+4818 chars]"
+    },
+    {
+      "id": 12,
+      "name": "Motley Fool",
+      "author": "newsfeedback@fool.com (Reuben Gregg Brewer)",
+      "title": "These 3 Stocks Might Be Getting a Little Too Expensive",
+      "description": "When looking to buy stocks for the long term, you need to consider valuation. Right now, these stocks are not cheap.",
+      "url": "https://www.fool.com/investing/2022/09/14/these-stocks-might-be-getting-too-expensive/",
+      "urlToImage": "https://g.foolcdn.com/editorial/images/700619/22_08_08-a-balance-showing-risk-and-reward-_mf-dload.jpg",
+      "publishedAt": "2022-09-14T14:15:27Z",
+      "content": "Even great companies can be bad investments if you pay too much for them. That's a warning from investment legend Benjamin Graham, the man who helped train Warren Buffett.\r\nIf you are looking for som… [+4251 chars]"
+    },
+    {
+      "id": 13,
+      "name": "Barron's",
+      "author": "Al Root",
+      "title": "Detroit Auto Show Is a Big Deal, but Not for Tesla",
+      "description": "The Detroit Auto Show is back—in person—after major changes to the car business and the world. President Joe Biden will attend, but not Elon Musk.",
+      "url": "https://www.barrons.com/articles/tesla-biden-detroit-auto-show-51663163721",
+      "urlToImage": "https://images.barrons.com/im-622789/social",
+      "publishedAt": "2022-09-14T14:10:47Z",
+      "content": "The Detroit Auto Show is backin person but smallerafter a three-plus year pause that ushered in an unfathomable number of changes to the car business and the world.All the changes might make the show… [+3525 chars]"
+    },
+    {
+      "id": 14,
+      "name": "Business Wire",
+      "author": null,
+      "title": "Akuity Launches Platform to Help DevOps Overcome Common Kubernetes Pain Points",
+      "description": "SUNNYVALE, Calif.--(BUSINESS WIRE)--The new Akuity Platform is a fully-managed SaaS service for implementing GitOps and faster Kubernetes application delivery, using the Argo project.",
+      "url": "https://www.businesswire.com/news/home/20220914005050/en/Akuity-Launches-Platform-to-Help-DevOps-Overcome-Common-Kubernetes-Pain-Points",
+      "urlToImage": "https://mms.businesswire.com/media/20220914005050/en/1570565/23/IMG_1975.jpg",
+      "publishedAt": "2022-09-14T14:08:58Z",
+      "content": "SUNNYVALE, Calif.--(BUSINESS WIRE)--Akuity.io, the enterprise company for Argo, today announced the general availability of the Akuity Platform, a fully-managed SaaS service for simpler, safer and fa… [+3001 chars]"
+    },
+    {
+      "id": 15,
+      "name": "Motley Fool",
+      "author": "newsfeedback@fool.com (Michael Byrne)",
+      "title": "2 Robinhood Stocks With Market-Beating Potential",
+      "description": "Sometimes great investment opportunities are sitting right in front of us.",
+      "url": "https://www.fool.com/investing/2022/09/14/2-robinhood-stocks-with-market-beating-potential/",
+      "urlToImage": "https://g.foolcdn.com/editorial/images/700230/coffee-shop-service-restaurant-take-out.jpg",
+      "publishedAt": "2022-09-14T14:07:00Z",
+      "content": "Robinhood investors got a somewhat undeserved bad rap during 2021's meme stock mania.\r\nSure, some investors on the platform did nothing more than blindly chase the next big meme, but in looking at th… [+5916 chars]"
+    },
+    {
+      "id": 86,
+      "title": "first Test",
+      "name": "test News",
+      "author": "Setayesh",
+      "description": "tets tetst testtt sdgfsfhyfygs",
+      "urlToImage": "C:\\fakepath\\matthew-hamilton-Ru3Ap8TNcsk-unsplash.jpg",
+      "content": "fasjfkoiagvrfoauaeowihhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh afhahsfuhawyrfoahwcslkcoawjf asflfiorwuafmc,vnzuvhape fjvopafma'kavnvj ahnerufhav aoijfianhv jkdhvfawuhv iwFHOIAWHFAUNVAKVBA AISFASNVJAK\n",
+      "publishedAt": "9/15/2022, 7:41:42 PM"
+    },
+    {
+      "id": 40,
+      "title": "sorosh",
+      "name": "tetsttstdts",
+      "author": "Sety",
+      "description": "tetdstfsdjfshfafiaewuogvae;rg",
+      "urlToImage": "C:\\fakepath\\danist-soh-dqXiw7nCb9Q-unsplash.jpg",
+      "content": "fsbkjvhbauihgierygfiauehas-f[aofsmvkljvz oifhahg;v",
+      "publishedAt": "9/15/2022, 7:48:29 PM"
+    },
+    {
+      "id": 177,
+      "title": "",
+      "name": "",
+      "author": "",
+      "description": "",
+      "urlToImage": "",
+      "content": "",
+      "publishedAt": ""
+    },
+    {
+      "id": 148,
+      "title": "",
+      "name": "",
+      "author": "",
+      "description": "",
+      "urlToImage": "",
+      "content": "",
+      "publishedAt": ""
+    },
+    {
+      "id": 119,
+      "title": "",
+      "name": "",
+      "author": "",
+      "description": "",
+      "urlToImage": "",
+      "content": "",
+      "publishedAt": ""
+    },
+    {
+      "id": 102,
+      "title": "",
+      "name": "",
+      "author": "",
+      "description": "",
+      "urlToImage": "",
+      "content": "",
+      "publishedAt": ""
+    }
+  ]
 }
