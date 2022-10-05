@@ -1,94 +1,78 @@
-import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { Formik, useFormik } from "formik";
+import * as Yup from 'yup'
+import Input from "../../Input/Input";
+import Textarea from "../../Input/textarea";
 
 
 const NewsAdd = () => {
     let navigate = useNavigate();
 
-    const [news, setNews] = useState({
-        id: Math.floor(Math.random() * 200),
-        title: "",
-        name: "",
-        author: "",
-        description: "",
-        urlToImage: "",
-        content: "",
-        publishedAt: ""
-    })
+    const initialValues = {
 
-    const initialState = {
-        id: Math.floor(Math.random() * 200),
         title: "",
         name: "",
         author: "",
         description: "",
         urlToImage: "",
         content: "",
-        publishedAt: ""
     }
 
-    const AddNewsHandler = (e) => {
-
-        axios.post('http://localhost:3001/articles', { ...news })
+    const onSubmit = (values) => {
+        console.log(values);
+        axios
+            .post('http://localhost:3001/articles',
+                { ...values, publishedAt: new Date().toLocaleString(), id: Math.floor(Math.random() * 200) })
             .then(function (response) {
-                console.log(response);
-                setNews(initialState)
                 navigate("/");
             })
             .catch(function (error) {
                 console.log(error);
             });
-
-        e.preventDefault()
-
     }
 
-    const changeInputHandler = (e) => {
-        setNews({ ...news, [e.target.name]: e.target.value, publishedAt: new Date().toLocaleString() })
-    }
+    const validationSchema = Yup.object({
+        title: Yup.string().required('Title is required').min(4, 'Title length is not valid'),
+        name: Yup.string().required('Name is required'),
+        author: Yup.string().required('Author is required'),
+        description: Yup.string().required('Description is required'),
+        urlToImage: Yup.string().required('urlToImage is required'),
+        content: Yup.string().required('Content is required'),
+    })
 
-    return (<div className="add-news__box">
-        <div className="add-news__box-title"><h1>Add News</h1></div>
-        <form>
-            <div className="form-row">
-                <div className="form-group">
-                    <label htmlFor="title">Title:</label>
-                    <input type="text" name="title" value={news.title} onChange={changeInputHandler} required />
+
+    const formik = useFormik({
+        initialValues,
+        onSubmit,
+        validateOnMount: true,
+        validationSchema,
+        enableReinitialize: true
+    })
+
+    return (
+        <div className="add-news__box">
+            <div className="add-news__box-title"><h1>Add News</h1></div>
+            <form onSubmit={formik.handleSubmit}>
+
+                <div className="form-row">
+                    <Input formik={formik} name="title" label="Title" />
+                    <Input formik={formik} name="name" label="Name" />
+                    <Input formik={formik} name="author" label="Author" />
+                    <Input formik={formik} name="urlToImage" label="Image" type="file" />
                 </div>
 
-                <div className="form-group">
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" value={news.name} onChange={changeInputHandler} required />
+
+                <div className="form-row-desc">
+                    <Textarea formik={formik} name="description" label="Description" />
+                    <Textarea formik={formik} name="content" label="Content" />
                 </div>
 
-                <div className="form-group">
-                    <label htmlFor="author">Author:</label>
-                    <input type="text" name="author" value={news.author} onChange={changeInputHandler} required />
+                <div className="add-news__box-submit">
+                    <button type="submit" disabled={!formik.isValid}>Submit</button>
                 </div>
-
-                <div className="form-group">
-                    <label htmlFor="urlToImage">Image:</label>
-                    <input type="file" name="urlToImage" value={news.urlToImage} onChange={changeInputHandler} required />
-                </div>
-            </div>
-
-            <div className="form-row-desc">
-                <div className="form-group">
-                    <label htmlFor="description">Description:</label>
-                    <textarea type="text" name="description" value={news.description} onChange={changeInputHandler} required />
-                </div>
-
-                <div className="form-group">
-                    <label htmlFor="content">Content:</label>
-                    <textarea type="text" name="content" value={news.content} onChange={changeInputHandler} required />
-                </div>
-            </div>
-            <div className="add-news__box-submit">
-                <button type="submit" onClick={AddNewsHandler}>Submit</button>
-            </div>
-        </form>
-    </div>);
+            </form>
+        </div>);
 }
 
 export default NewsAdd;
