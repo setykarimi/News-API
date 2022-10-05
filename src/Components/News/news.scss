@@ -49,6 +49,7 @@
         text-align: left;
         padding: 0 1em;
         font-size: .9em;
+        
     }
 
     &__author{
@@ -185,6 +186,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1.5em;
+            margin-top: 1.5em;
             @media(max-width:992px){
                 grid-template-columns: 1fr  ;
             }
@@ -216,6 +218,17 @@
             textarea{
                 width: 90%;
             }
+
+            div{
+                position: relative;
+                width: 100%;
+                .error{
+                    position: absolute;
+                    bottom: -1.7em;
+                    color: red;
+                    font-size: .8em;
+                }
+            }
         }
 
         &-submit{
@@ -238,3 +251,4 @@
         }
     }
 }
+
