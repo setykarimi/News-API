@@ -1,95 +1,162 @@
 @font-face {
-  font-family: 'Fredoka';
+  font-family: "Fredoka";
   src: url(../../../fonts/FredokaOne-Regular.ttf);
 }
 
-.custom-nav{
-    background: #2E2E2E;
-    padding: .5em 1.5em;
-    border-radius: .3em;
-    position: sticky;
-    display: flex;
-    top: 1em;
-    align-items: center;
-    margin-bottom: 2em;
-    z-index: 10;
-   
-    &__logo{
-     display: flex;
-     gap: .5em;
-     align-items: center;
-     font-family: 'Fredoka';
-      .logo{
-        font-size: 1.5em;
-        display: block;
-        width: 100%;
-        height: 100%;
-        color: #1F1F1F;
-        width: 1.5em;
-        height: 1.5em;
-        background: #fff;
-        text-align: center;
-        border-radius: .2em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-        &-dec{
-          font-size: 1.2em;
-        }
-      }
-    }
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../../../fonts/Poppins-Bold.ttf);
+}
+
+.nav-container{
+  background: #2e2e2e;
+  padding: 0.5em 1.5em;
+  position: sticky;
+  margin: auto;
+  top: 0;
+  z-index: 10;
+}
+.custom-nav {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
   
-    &__items{
-      @media(max-width:992px){
-        display: none;
-      }
-    }
 
-    .toggle-menu{
-      display: none;
-      background: none;
-      border: none;
-      outline: none;
-      color: #fff;
-      cursor: pointer;
-      @media(max-width:992px){
-        display: block;
-        margin-left: .5em;
-      }
-    }
-    ul{
-      margin-left: 3em;
-      list-style-type: none;
+  &__logo {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    font-family: "Fredoka";
+    .logo {
+      font-size: 1.5em;
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #1f1f1f;
+      width: 1.5em;
+      height: 1.5em;
+      background: #fff;
+      text-align: center;
+      border-radius: 0.2em;
       display: flex;
-      gap: 2em;
-      li{
-        a{
-          color: #fff;
-          text-decoration: none;
-        }
-      }
-    }
+      justify-content: center;
+      align-items: center;
 
-    &__search-bar{
-      margin-left: auto;
-      border-bottom: 1px solid #707070;
-      padding-bottom: .2em;
-      transition: .3s ease;
-      &:focus-within{
-        border-bottom: 1px solid #fff;
-      }
-      input{
-        background: transparent;
-        border: none;
-        width: 8em;
-        outline: none;
-        margin-left: .5em;
-        color: #fff;
-      }
-
-      .icon{
-        width: 1em;
+      &-dec {
+        font-size: 1.2em;
       }
     }
   }
+
+  &__items {
+    @media (max-width: 992px) {
+      display: none;
+    }
+
+    .active-link {
+      font-family: "Poppins-Bold";
+      position: relative;
+      font-size: 1em;
+      &::after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        background: #0075FF;
+        bottom: -10px;
+        display: block;
+        left: 0;
+      }
+    }
+  }
+
+  .toggle-menu {
+    display: none;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    @media (max-width: 992px) {
+      display: block;
+      margin-left: 0.5em;
+    }
+  }
+  ul {
+    margin-left: 3em;
+    display: flex;
+    gap: 2em;
+    li {
+      a {
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+        font-size: .9em;
+
+       
+        &::after {
+          content: "";
+          width: 0;
+          height: 2px;
+          position: absolute;
+          background: #0075FF;
+          bottom: -10px;
+          left: 0;
+          transition:.3s ease;
+        }
+        &:hover{
+          &::after {
+            width: 100%;
+            display: block;
+          }
+        }
+
+        
+        
+      }
+    }
+  }
+
+  &__detail{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    
+    a {
+      color: #fff;
+      background: #0075FF;
+      text-decoration: none;
+      transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+      font-size: .9em;
+      display: block;
+      padding: 3px 10px;
+      border-radius: 2px;
+    }
+  }
+  &__search-bar {
+   
+    border-bottom: 1px solid #707070;
+    padding-bottom: 0.2em;
+    transition: .5s ease-in-out;
+    width: 10em;
+    &:focus-within {
+      border-bottom: 1px solid #fff;
+      width: 20em;
+    }
+    input {
+      background: transparent;
+      border: none;
+      width: 8em;
+      outline: none;
+      margin-left: 0.5em;
+      color: #fff;
+    }
+
+    .icon {
+      width: 1em;
+    }
+  }
+}
