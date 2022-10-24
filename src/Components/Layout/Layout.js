@@ -2,9 +2,9 @@ import Navigation from "./includes/Navigation";
 
 const Layout = ({ children }) => {
     return (<>
-        
+          <Navigation />
         <div className="container">
-        <Navigation />
+      
         {children}
         </div>
     </>);
