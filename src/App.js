@@ -10,16 +10,16 @@ import Authprovider from './Provider/AuthProvider';
 function App() {
   return (
     <div className="App">
-      <Layout>
-        <Authprovider>
+      <Authprovider>
+        <Layout>
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/details/:id' element={<DetailsPage />} />
             <Route path='/news/add' element={<NewsAdd />} />
             <Route path='/login' element={<LoginPage />} />
           </Routes>
-        </Authprovider>
-      </Layout>
+        </Layout>
+      </Authprovider>
     </div>
   );
 }
