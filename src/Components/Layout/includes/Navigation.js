@@ -2,8 +2,10 @@ import { Link, NavLink } from "react-router-dom";
 import './nav.scss';
 import { BsSearch } from 'react-icons/bs';
 import { HiMenuAlt3 } from 'react-icons/hi'
+import { useAuth } from "../../../Provider/AuthProvider";
 
 const Navigation = () => {
+    const auth = useAuth();
     return (
         <div className="nav-container">
             <nav className="custom-nav">
@@ -39,7 +41,8 @@ const Navigation = () => {
                         <input placeholder="Search ..." />
                     </div>
                     <li>
-                        <NavLink to='/login' className={navData => navData.isActive ? "active-link" : ""}>Login</NavLink>
+                    
+                        <NavLink to={auth? "/profile" : "/login"} className={navData => navData.isActive ? "active-link" : ""}>{auth? "Profile" : "Login"}</NavLink>
                     </li>
                 </div>
 
