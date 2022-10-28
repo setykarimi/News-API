@@ -11,14 +11,14 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <Routes>
-          <Authprovider>
+        <Authprovider>
+          <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/details/:id' element={<DetailsPage />} />
             <Route path='/news/add' element={<NewsAdd />} />
             <Route path='/login' element={<LoginPage />} />
-          </Authprovider>
-        </Routes>
+          </Routes>
+        </Authprovider>
       </Layout>
     </div>
   );
