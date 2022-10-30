@@ -4,13 +4,17 @@ import { Formik, useFormik } from "formik";
 import * as Yup from 'yup'
 import Input from "../../Input/Input";
 import Textarea from "../../Input/textarea";
+import { useAuth } from "../../../Provider/AuthProvider";
+import { useEffect } from "react";
+import { toast } from 'react-toastify';
+
 
 
 const NewsAdd = () => {
-    let navigate = useNavigate();
+    const navigate = useNavigate();
+    const auth = useAuth();
 
     const initialValues = {
-
         title: "",
         name: "",
         author: "",
@@ -41,7 +45,6 @@ const NewsAdd = () => {
         content: Yup.string().required('Content is required'),
     })
 
-
     const formik = useFormik({
         initialValues,
         onSubmit,
@@ -49,6 +52,13 @@ const NewsAdd = () => {
         validationSchema,
         enableReinitialize: true
     })
+
+   
+        if (!auth) {
+            toast.error( "You are not logged in")
+            navigate('/')
+        }
+   
 
     return (
         <div className="add-news__box">
