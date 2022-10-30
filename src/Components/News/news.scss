@@ -1,5 +1,3 @@
-
-
 .news-row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -15,18 +13,20 @@
         grid-template-columns: 1fr;
     }
 }
+
 .news-box {
     border-radius: 1em;
     background: #2e2e2e;
     position: relative;
-    .img{ width: 100%;
-        height: 10em;
-    img {
+    .img {
         width: 100%;
-        height: 100%;
-        border-radius: 1em;
-    }}
-
+        height: 10em;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 1em;
+        }
+    }
 
     &__title {
         width: 15em;
@@ -35,7 +35,7 @@
         text-overflow: ellipsis;
         margin: auto;
         font-size: 1em;
-        margin-top: .5em;
+        margin-top: 0.5em;
         text-align: center;
     }
 
@@ -48,206 +48,108 @@
         hyphens: auto;
         text-align: left;
         padding: 0 1em;
-        font-size: .9em;
-        
+        font-size: 0.9em;
     }
 
-    &__author{
+    &__author {
         display: block;
         position: absolute;
         top: 1em;
         left: 1em;
-        background: #0075FF;
-        padding: 0.3em .7em;
+        background: #0075ff;
+        padding: 0.3em 0.7em;
         border-radius: 4em;
-        font-size: .8em;
+        font-size: 0.8em;
         width: 8em;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         display: flex;
         align-items: center;
-        b{
-            
+        b {
             font-weight: bold;
-            padding-left: .3em;
+            padding-left: 0.3em;
         }
     }
 
-    &__details{
+    &__details {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 1em .5em 1em;
-        .date{
+        padding: 0 1em 0.5em 1em;
+        .date {
             display: inline-block;
-            font-family: 'Poppins-Light';
-            font-size: .9em;
+            font-family: "Poppins-Light";
+            font-size: 0.9em;
         }
 
-        a{
+        a {
             display: inline-block;
-            color: #287EFF;
-            font-size: .9em;
+            color: #287eff;
+            font-size: 0.9em;
         }
     }
 }
 
-.news-detail{
-    &__box{
+.news-detail {
+    &__box {
         background: #2e2e2e;
-        border-radius: .5em;
+        border-radius: 0.5em;
         padding: 1em;
-        
-        img{
+
+        img {
             width: 100%;
             max-height: 17em;
             height: auto;
-            border-radius: .7em;
+            border-radius: 0.7em;
         }
 
-        &-title-section{
+        &-title-section {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1.5em;
-            
-            @media(max-width:768px){
-                grid-template-columns: 1fr ;
+
+            @media (max-width: 768px) {
+                grid-template-columns: 1fr;
             }
 
-            .title{
-                font-family: 'Fredoka';
-                letter-spacing: .1em;
+            .title {
+                font-family: "Fredoka";
+                letter-spacing: 0.1em;
                 font-weight: normal;
                 font-size: 1.2em;
             }
 
-            .date{
+            .date {
                 display: flex;
                 align-items: center;
-                span{
-                    font-family: 'Poppins-Light';
+                span {
+                    font-family: "Poppins-Light";
                     display: block;
-                    margin-left: .2em;
+                    margin-left: 0.2em;
                 }
             }
 
-            .author{
+            .author {
                 display: flex;
                 align-items: center;
-                color: #287EFF;
-                span{
+                color: #287eff;
+                span {
                     display: block;
-                    margin-left: .2em;
-                    font-family: 'Poppins-Black';
+                    margin-left: 0.2em;
+                    font-family: "Poppins-Black";
                 }
             }
         }
 
-        &-details{
+        &-details {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        &-content{
+        &-content {
             margin-top: 2em;
-        }
-    }
-}
-
-.add-news{
-    &__box{
-        background: #2e2e2e;
-        border-radius: .5em;
-        padding: 1em;
-        &-title{
-            text-align: center;
-            h1{
-                font-size: 1.5em;
-                font-family: 'Fredoka';
-                font-weight: normal;
-            }
-        }
-
-        .form-row{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            gap: 1.5em;
-            @media(max-width:992px){
-                grid-template-columns: 1fr 1fr ;
-            }
-            @media(max-width:576px){
-                grid-template-columns: 1fr  ;
-            }
-        }
-
-        .form-row-desc{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1.5em;
-            margin-top: 1.5em;
-            @media(max-width:992px){
-                grid-template-columns: 1fr  ;
-            }
-        }
-
-        .form-group{
-            display: flex;
-            justify-content: space-between;
-            gap: .5em;
-            align-items: center;
-            margin: .5em 0;
-            input, textarea{
-                width: 100%;
-                border: none;
-                background: #1F1F1F;
-                border-radius: .3em;
-                padding: .7em ;
-                outline: none;
-                transition: .3s ease;
-                color: #fff;
-                &:focus{
-                    outline: 3px solid #0075FF;
-                }
-            }
-
-            input{
-                width: 15em;
-            }
-            textarea{
-                width: 90%;
-            }
-
-            div{
-                position: relative;
-                width: 100%;
-                .error{
-                    position: absolute;
-                    bottom: -1.7em;
-                    color: red;
-                    font-size: .8em;
-                }
-            }
-        }
-
-        &-submit{
-            display: flex;
-            justify-content: center;
-            margin: 1em auto;
-            button{
-                background: #0075FF;
-                color: #fff;
-                font-family: 'Poppins-Black';
-                border: none;
-                outline: none;
-                padding: .5em 1em;
-                border-radius: .3em;
-                transition: .3s ease;
-                &:hover , &:focus{
-                    outline: 3px solid #0077ff28;
-                }
-            }
         }
     }
 }
