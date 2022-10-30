@@ -53,32 +53,26 @@ const NewsAdd = () => {
         enableReinitialize: true
     })
 
-   
-        if (!auth) {
-            toast.error( "You are not logged in")
-            navigate('/')
-        }
-   
+
+    if (!auth) {
+        toast.error("You are not logged in")
+        navigate('/')
+    }
+
 
     return (
-        <div className="add-news__box">
-            <div className="add-news__box-title"><h1>Add News</h1></div>
+        <div className="box">
+            <div className="box-title"><h1>Add News</h1></div>
             <form onSubmit={formik.handleSubmit}>
 
-                <div className="form-row">
-                    <Input formik={formik} name="title" label="Title" />
-                    <Input formik={formik} name="name" label="Name" />
-                    <Input formik={formik} name="author" label="Author" />
-                    <Input formik={formik} name="urlToImage" label="Image" type="file" />
-                </div>
+                <Input formik={formik} name="title" label="Title" />
+                <Input formik={formik} name="name" label="Name" />
+                <Input formik={formik} name="author" label="Author" />
+                <Input formik={formik} name="urlToImage" label="Image" type="file" />
+                <Textarea formik={formik} name="description" label="Description" />
+                <Textarea formik={formik} name="content" label="Content" />
 
-
-                <div className="form-row-desc">
-                    <Textarea formik={formik} name="description" label="Description" />
-                    <Textarea formik={formik} name="content" label="Content" />
-                </div>
-
-                <div className="add-news__box-submit">
+                <div className="box-submit">
                     <button type="submit" disabled={!formik.isValid}>Submit</button>
                 </div>
             </form>
