@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 import Input from "../Components/Input/Input";
 
 const LoginPage = () => {
-    const auth = useAuth() 
+    const auth = useAuth()
     const setAuth = useAuthActions();
     const navigate = useNavigate();
     const initialValues = {
@@ -22,10 +22,10 @@ const LoginPage = () => {
     const onSubmit = (values) => {
         if (values.name == "sety" && values.password == "123456") {
             setAuth(values);
-            toast.success( "Welcome Sety")
+            toast.success("Welcome Sety")
             navigate('/news/add')
-        }else{
-            toast.error( "Username or Password is incorrect!")
+        } else {
+            toast.error("Username or Password is incorrect!")
         }
     }
 
@@ -36,20 +36,19 @@ const LoginPage = () => {
         validateOnMount: true
     })
 
-    if(auth) return (<p>You are already logged in</p>)
+    if (auth) return (<p>You are already logged in</p>)
 
     return (
-        <>
-            <h1>Login</h1>
+        <div className="box">
+            <div className="box-title"><h1>Login</h1></div>
             <form onSubmit={formik.handleSubmit}>
-               
                 <Input formik={formik} name="name" label="Name" />
-                <Input formik={formik} name="password" label="Password" type="password"/>
-
-                <button type="submit">Submit</button>
-
+                <Input formik={formik} name="password" label="Password" type="password" />
+                <div className="box-submit">
+                    <button type="submit">Submit</button>
+                </div>
             </form>
-        </>
+        </div>
     );
 }
 
