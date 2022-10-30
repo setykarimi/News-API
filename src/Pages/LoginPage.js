@@ -1,8 +1,14 @@
 import { useFormik } from "formik";
+import { useNavigate } from "react-router-dom";
 import * as Yup from 'yup';
-import { useAuthActions } from "../Provider/AuthProvider";
+import { useAuth, useAuthActions } from "../Provider/AuthProvider";
+import { toast } from 'react-toastify';
+import Input from "../Components/Input/Input";
+
 const LoginPage = () => {
+    const auth = useAuth() 
     const setAuth = useAuthActions();
+    const navigate = useNavigate();
     const initialValues = {
         name: '',
         password: ''
@@ -14,7 +20,13 @@ const LoginPage = () => {
     })
 
     const onSubmit = (values) => {
-        setAuth(values)
+        if (values.name == "sety" && values.password == "123456") {
+            setAuth(values);
+            toast.success( "Welcome Sety")
+            navigate('/news/add')
+        }else{
+            toast.error( "Username or Password is incorrect!")
+        }
     }
 
     const formik = useFormik({
@@ -23,33 +35,16 @@ const LoginPage = () => {
         validationSchema,
         validateOnMount: true
     })
+
+    if(auth) return (<p>You are already logged in</p>)
+
     return (
         <>
             <h1>Login</h1>
             <form onSubmit={formik.handleSubmit}>
-                <div>
-                    <label>Name:</label>
-                    <input
-                        type="text"
-                        name="name"
-                        onChange={formik.handleChange}
-                        values={formik.values.name}
-                        onBlur={formik.handleBlur}
-                    />
-                    {formik.errors.name && formik.touched.name && <div className="error">{formik.errors.name}</div>}
-                </div>
-
-                <div>
-                    <label>Password:</label>
-                    <input
-                     type="password"
-                     name="password"
-                     onChange={formik.handleChange}
-                     values={formik.values.password}
-                     onBlur={formik.handleBlur} />
-                     {formik.errors.password && formik.touched.password && <div className="error">{formik.errors.password}</div>}
-                </div>
-
+               
+                <Input formik={formik} name="name" label="Name" />
+                <Input formik={formik} name="password" label="Password" type="password"/>
 
                 <button type="submit">Submit</button>
 
