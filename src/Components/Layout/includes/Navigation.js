@@ -9,8 +9,6 @@ const Navigation = () => {
     return (
         <div className="nav-container">
             <nav className="custom-nav">
-
-
                 <div className="custom-nav__logo">
                     <span className="logo">N</span>
                     <span className="logo-dec">TodayNews</span>
@@ -29,6 +27,8 @@ const Navigation = () => {
                         <li>
                             <NavLink to='/contact' className={navData => navData.isActive ? "active-link" : ""}>Contact Us</NavLink>
                         </li>
+
+                        {auth && <li><NavLink to='/news/add' className={navData => navData.isActive ? "active-link" : ""}>Add News</NavLink></li>}
 
 
 
