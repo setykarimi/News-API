@@ -1,0 +1,33 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5em;
+    margin: 0.5em 0;
+    width: 25em;
+    @media (max-width: 576px) {
+        width: 20em;
+    }
+    input,
+    textarea {
+        width: auto;
+        border: none;
+        background: #1f1f1f;
+        border-radius: 0.3em;
+        padding: 0.7em;
+        outline: none;
+        transition: 0.3s ease;
+        color: #fff;
+
+        &:focus {
+            outline: 3px solid #0075ff;
+        }
+    }
+
+    .error {
+  
+  
+        color: red;
+        font-size: 0.8em;
+    }
+}
