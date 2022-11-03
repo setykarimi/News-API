@@ -23,4 +23,4 @@ Runs the json-server for loading data.
 open [http://localhost:3001](http://localhost:3001) to view news in your browser.
 
 
-![Preview](/src/assets/imagePreview.png?raw=true "Optional Title")
+![Preview](/src/assets/imagePreview.png?raw=true)
