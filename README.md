@@ -22,5 +22,5 @@ You may also see any lint errors in the console.
 Runs the json-server for loading data.
 open [http://localhost:3001](http://localhost:3001) to view news in your browser.
 
-![News](https://github.com/setykarimi/News-API/blob/main/image.jpg?raw=true)
 
+![Preview](/src/assets/imagePreview.png?raw=true "Optional Title")
