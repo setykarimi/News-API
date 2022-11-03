@@ -1,5 +1,5 @@
 # News API Project
-# Description
+
 Hi guys👋,
 Im sety and this is my News project. 
 I've used [newsapi.org] content for my home page, but I set them in my db.json file, because we have admin for adding custom news.
@@ -7,7 +7,7 @@ You can login to admin panel => userName: sety, Pasword: 123456.
 If you wanna set your NAME you have to change my name in Login page.
 Hope you enjoy it❤️!
 
-Dont Forget [`npm install`] 😊
+Dont Forget  `npm install` 😊
 
 ## Available Scripts
 In the project directory, you can run:
