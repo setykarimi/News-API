@@ -18,7 +18,8 @@
         outline: none;
         transition: 0.3s ease;
         color: #fff;
-
+        overflow: auto;
+        resize:vertical;
         &:focus {
             outline: 3px solid #0075ff;
         }
