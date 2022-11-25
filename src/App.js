@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.scss';
-import Layout from './Components/Layout/Layout';
-import NewsAdd from './Components/News/Add/NewsAdd';
-import DetailsPage from './Pages/DetailsPage';
-import HomePage from './Pages/HomePage';
-import LoginPage from './Pages/LoginPage';
-import Authprovider from './Provider/AuthProvider';
+import '@/App.scss';
+import Layout from '@/components/Layout/Layout';
+import NewsAdd from '@/components/News/Add/NewsAdd';
+import DetailsPage from '@/pages/DetailsPage';
+import HomePage from '@/pages/HomePage';
+import LoginPage from '@/pages/LoginPage';
+import Authprovider from '@/provider/AuthProvider';
 
 function App() {
   return (
