@@ -3,8 +3,8 @@
         "baseUrl": ".",
         "paths": {
             "@/components/*": ["./src/components/*"],
-            "@/pages/*": ["./src/pages/*"],
-            "@/provider/*": ["./src/Provider/*"]
+            "@/pages/*": ["src/pages/*"],
+            "@/provider/*": ["src/provider/*"]
         }
     },
     "exclude": ["node_modules", "build"]
