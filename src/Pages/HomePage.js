@@ -1,8 +1,8 @@
-import NewsList from "../Components/News/List/NewsList";
+import NewsList from "@/components/News/List/NewsList";
 
 const HomePage = () => {
     return ( <div>
-        <NewsList />
+     <NewsList />
     </div> );
 }
  
