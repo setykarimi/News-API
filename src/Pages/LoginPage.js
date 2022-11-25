@@ -1,9 +1,9 @@
 import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
 import * as Yup from 'yup';
-import { useAuth, useAuthActions } from "../Provider/AuthProvider";
+import { useAuth, useAuthActions } from "@/provider/AuthProvider";
 import { toast } from 'react-toastify';
-import Input from "../Components/Input/Input";
+import Input from "@/components/Input/Input";
 
 const LoginPage = () => {
     const auth = useAuth()
