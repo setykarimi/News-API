@@ -1,33 +1,29 @@
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { Formik, useFormik } from "formik";
-import * as Yup from 'yup'
-import Input from "../../Input/Input";
-import Textarea from "../../Input/textarea";
-import { useAuth } from "../../../Provider/AuthProvider";
-import { useEffect } from "react";
+import * as Yup from 'yup';
+import Input from "@/components/Input/Input";
+import Textarea from "@/components/Input/textarea";
+import { useAuth } from "@/provider/AuthProvider";
 import { toast } from 'react-toastify';
-
-
 
 const NewsAdd = () => {
     const navigate = useNavigate();
     const auth = useAuth();
-
+    
     const initialValues = {
         title: "",
         name: "",
         author: "",
         description: "",
-        urlToImage: "",
+        url: "",
         content: "",
     }
 
     const onSubmit = (values) => {
-        console.log(values);
         axios
             .post('http://localhost:3001/articles',
-                { ...values, publishedAt: new Date().toLocaleString(), id: Math.floor(Math.random() * 200) })
+                { ...values, urlToImage: values.url.replace('C:\\fakepath\\','src/assets/').split(" ").join(""), publishedAt: new Date().toLocaleString(), id: Math.floor(Math.random() * 200) })
             .then(function (response) {
                 navigate("/");
             })
@@ -41,7 +37,7 @@ const NewsAdd = () => {
         name: Yup.string().required('Name is required'),
         author: Yup.string().required('Author is required'),
         description: Yup.string().required('Description is required'),
-        urlToImage: Yup.string().required('urlToImage is required'),
+        url: Yup.string().required('urlToImage is required'),
         content: Yup.string().required('Content is required'),
     })
 
@@ -68,7 +64,7 @@ const NewsAdd = () => {
                 <Input formik={formik} name="title" label="Title" />
                 <Input formik={formik} name="name" label="Name" />
                 <Input formik={formik} name="author" label="Author" />
-                <Input formik={formik} name="urlToImage" label="Image" type="file" />
+                <Input formik={formik} name="url" label="Image" type="file" />
                 <Textarea formik={formik} name="description" label="Description" />
                 <Textarea formik={formik} name="content" label="Content" />
 
