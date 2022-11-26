@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import './nav.scss';
 import { BsSearch } from 'react-icons/bs';
 import { HiMenuAlt3 } from 'react-icons/hi'
-import { useAuth } from "../../../Provider/AuthProvider";
+import { useAuth } from "@/provider/AuthProvider";
 import { useState } from "react";
 
 const Navigation = () => {
