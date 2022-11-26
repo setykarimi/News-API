@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MdModeEditOutline } from 'react-icons/md'
+import { MdModeEditOutline } from 'react-icons/md';
 
 const News = ({ title, img, author, content, publishedDate, id }) => {
     return (<div className="news-box">
