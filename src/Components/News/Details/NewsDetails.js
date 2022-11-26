@@ -1,5 +1,5 @@
 import { CgCalendarDates } from 'react-icons/cg';
-import { MdModeEdit } from 'react-icons/md'
+import { MdModeEdit } from 'react-icons/md';
 
 const NewsDetails = ({ urlToImage, title, name, description, publishedAt, author, content }) => {
     return (<div className="news-detail__box">
