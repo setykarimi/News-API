@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import News from '../News';
-import '../news.scss'
-import { VscLoading } from 'react-icons/vsc'
+import News from '@/components/News/News';
+import '../news.scss';
+import { VscLoading } from 'react-icons/vsc';
 
 const NewsList = () => {
     const [news, setNews] = useState(null)
